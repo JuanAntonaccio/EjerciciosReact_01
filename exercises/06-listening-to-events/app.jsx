@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import PropTypes from "prop-types";
 
-const clickHandler = e => {
+const clickHandler = (e) => {
 	console.log("I was clicked!", e);
 };
 
-const Alert = props => {
+const Alert = (props) => {
 	return <button className="btn btn-success btn-lg">Click Me</button>;
 };
 
